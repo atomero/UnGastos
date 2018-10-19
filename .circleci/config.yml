@@ -6,9 +6,6 @@ jobs:
       steps:
         - checkout
         - run:
-            name: ls
-            command: ls
-        - run:
             name: Requirements and Database
             command: ./scripts/setup.sh
         - run:
