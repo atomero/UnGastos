@@ -1,8 +1,8 @@
-## Nome do Projeto
+## unGastos
 
 [Logo do Projeto]
 
-O projeto Zeta é tem como objetivo auxiliar o cidadão comum a fiscalizar os gastos da Universidade de Brasília.
+O projeto UnGastos é tem como objetivo auxiliar o cidadão comum a fiscalizar os gastos da Universidade de Brasília.
 
 O site utiliza informações das [tabelas de execução de despesas] disponíveis no site da Universidade.
 
@@ -12,6 +12,8 @@ O site utiliza informações das [tabelas de execução de despesas] disponívei
 
 
 [tabelas de execução de despesas]: https://www.unb.br/documentos/2-publicacoes/658-execucao-das-despesas-na-fub-2018
+
+---
 
 ## Configuração do Ambiente com Docker
 
@@ -48,7 +50,7 @@ Caso deseje acessar novamente o container, utilize o seguinte comando:
 
 `sudo docker exec -it NomeDoContainer bash`
 
-### Outros comandos Úteis
+#### Outros comandos Úteis
 
 Iniciar um Container:
 
