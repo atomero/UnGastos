@@ -15,9 +15,20 @@ O site utiliza informações das [tabelas de execução de despesas] disponívei
 
 ## Configuração do Ambiente com Docker
 
-Primeiramente é necessário a instalação do Docker, que pode ser encontrado [aqui].
+Primeiramente é necessário a instalação do Docker, que pode ser encontrado [aqui], e do docker-compose, que pode ser encontrado [aqui][compose].
 
-Após a instalação do Docker, na pasta onde se encontra o Dockerfile do projeto, execute o comando abaixo no terminal, onde deve-se substituir "NomeDaImagem" por um nome de sua escolha.
+Após a instalação basta executar o comando:
+
+```
+docker-compose up
+```
+
+Na pasta do projeto, e o servidor _django_ será executado.
+
+
+### Configuração Manual do Container
+
+Na pasta onde se encontra o Dockerfile do projeto, execute o comando abaixo no terminal, onde deve-se substituir "NomeDaImagem" por um nome de sua escolha.
 
 `sudo docker build -t NomeDaImagem ./`
 
@@ -69,3 +80,4 @@ Remover Imagens
 
 [aqui]:
 https://docs.docker.com/install/
+[compose]:https://docs.docker.com/compose/install/
