@@ -1,0 +1,19 @@
+version: 2
+jobs:
+    build:
+      docker: 
+        - image: circleci/python:3.7.0
+      steps:
+        - checkout
+        - run:
+            name: ls
+            command: ls
+        - run:
+            name: Requirements and Database
+            command: ./scripts/setup.sh
+        - run:
+            name: Run tests
+            command: python3 UnGastos/manage.py test
+        - store_artifacts:
+            path: test_reports
+            destination: test-reports 
