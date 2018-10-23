@@ -2,7 +2,7 @@
 
 [Logo do Projeto]
 
-O projeto UnGastos é tem como objetivo auxiliar o cidadão comum a fiscalizar os gastos da Universidade de Brasília.
+O projeto UnGastos tem como objetivo faciltar a visualização dos gastos da Universidade de Brasília.
 
 O site utiliza informações das [tabelas de execução de despesas] disponíveis no site da Universidade.
 
@@ -11,7 +11,7 @@ O site utiliza informações das [tabelas de execução de despesas] disponívei
 [Documento de Requisitos do Projeto]
 
 
-[tabelas de execução de despesas]: https://www.unb.br/documentos/2-publicacoes/658-execucao-das-despesas-na-fub-2018
+[Tabelas de execução de despesas]: https://www.unb.br/documentos/2-publicacoes/658-execucao-das-despesas-na-fub-2018
 
 ---
 
@@ -25,7 +25,7 @@ Após a instalação basta executar o comando:
 docker-compose up
 ```
 
-Na pasta do projeto, e o servidor _django_ será executado.
+Na pasta do projeto, o servidor _django_ será executado.
 
 
 ### Configuração Manual do Container
