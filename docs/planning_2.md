@@ -28,5 +28,9 @@ _Visualizar gráfico de maiores gastos (M)_: Eu, como usuário, desejo visualiza
 
 _Aplicar bootstrap (M)_: Eu, como desenvolvedor, desejo aplicar o tema escolhido pela equipe no site, de maneira a dar a ele uma identidade visual.
 
+### Atividades
 
+De maneira a adiantar trabalho futuro, foram criadas algumas atividades que podem ser feitas para histórias que serão feitas.
+
+_Pesquisar tipos de gráfico_: Pesquisar tipos de gráfico adequados para as histórias de usuário **Filtrar gráfico por natureza**, **Filtrar gráfico de gastos por mês**, **Filtrar gráfico de gastos por fonte de recurso**.
 
