@@ -22,7 +22,7 @@ Primeiramente é necessário a instalação do Docker, que pode ser encontrado [
 Após a instalação basta executar o comando:
 
 ```
-docker-compose run web
+docker-compose run --service-ports web
 ```
 
 Na pasta do projeto, o servidor _django_ será executado.
