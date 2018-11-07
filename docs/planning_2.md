@@ -1,9 +1,10 @@
 ## Detalhes
 
 **Número da Sprint:** 1  
-**Data de Início:** 14/10/2018  
-**Data de Término:**: 31/10/2018  
-**Duração:** 8  
+**Data de Início:** 24/10/2018  
+~~Data de Término: 31/10/2018~~
+**Data de Término:** 07/11/2018
+**Duração:** 14
 
 ---
 

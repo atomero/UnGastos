@@ -1,17 +1,20 @@
 ## Resultados
 
-### Histórias Concluídas
+### Histórias não concluídas
+
+**Visualizar gráfico de maiores gastos**: Não foi possível concluir a história de usuário, visto de os dados não estão prontos para serem manipulados. No entanto, os tipos de gráficos a serem usados já foram escolhidos.
+
+
+### Atividades Concluídas
 
 **Criar projeto inicial**: PP.
 **Adicionar integração contínua**: PP.
 **Criar docker**: PP.
 **Escolher estilos de bootstrap para o site**: P.
 
-### Histórias não concluídas
+### Atividades não concluídas
 
 **Criar repositório de dados**: A história não foi concluída por conta da dificuldade de encontrar uma ferramenta para converter os PDFs de maneira correta. Apesar de não ser concluída, a história teve um grande progresso.
-
-**Visualizar gráfico de maiores gastos**: Não foi possível concluir a história de usuário, visto de os dados não estão prontos para serem manipulados. No entanto, os tipos de gráficos a serem usados já foram escolhidos.
 
 ### Retrospectiva
 

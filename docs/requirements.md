@@ -15,12 +15,6 @@ Abaixo segue a lista de histórias técnicas e histórias de usuário do projeto
 
 ## Histórias 
 
-### Histórias Técnicas
-
-Eu, como desenvolvedor, desejo converter os dados dos PDFs de despesas da UnB para CSV, de maneira melhorar sua manipulação.
-
-Eu, como desenvolvedor, desejo popular os banco de dados da aplicação com os dados convertidos, para gerar gráficos e informações úteis com estes.
-
 ### Histórias de Usuário
 
 Eu, como usuário, desejo visualizar um gráfico de maiores gastos da FUB, para acompanhar o uso do dinheiro público pela organização.
