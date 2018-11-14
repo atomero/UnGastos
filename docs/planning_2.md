@@ -1,7 +1,7 @@
 ## Detalhes
 
-**Número da Sprint:** 1  
-**Data de Início:** 24/10/2018  
+**Número da Sprint:** 1
+**Data de Início:** 24/10/2018
 ~~Data de Término: 31/10/2018~~
 **Data de Término:** 07/11/2018
 **Duração:** 14
@@ -10,8 +10,8 @@
 
 ## Papéis
 
-**Scrum Master**: Roger Lenke  
-**Product Owner**: Toda a Equipe  
+**Scrum Master**: Roger Lenke
+**Product Owner**: Toda a Equipe
 
 ---
 
