@@ -20,5 +20,7 @@ from main import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home')
+    path('', views.home, name='home'),
+    path('expenses_month/', views.expanse, name='expanse'),
+    path('resource_source/', views.resource_source, name='resource_source')
 ]
