@@ -18,6 +18,7 @@ jobs:
     docker:
       - image: buildpack-deps:trusty
     steps:
+      - checkout
       - run:
           name: Deploy master to heroku
           command: |
@@ -32,4 +33,4 @@ workflows:
             - build
           filters:
             branches:
-              only: deploy
+              only: master 
