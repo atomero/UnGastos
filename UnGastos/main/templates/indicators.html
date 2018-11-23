@@ -1,7 +1,7 @@
 {% extends "landing/template.html" %} {% block content %}
-
 <div class="row-clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: table;">
-    <div style="display: table-row;">
+<div class="row-clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: table;">
+    <div class="card" style="display: table-row">
         <div class="card" style="display: table-cell">
             <div class="body bg-orange">
                 <div>
@@ -26,7 +26,9 @@
 </div>
 
 <div class="row-clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+        <div class="card" >
     {% include 'total_vs_actual_indicator.html' %}
 </div>
-
+</div>
+</div>
 {% endblock %}
