@@ -1,0 +1,32 @@
+{% extends "landing/template.html" %} {% block content %}
+
+<div class="row-clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: table;">
+    <div style="display: table-row;">
+        <div class="card" style="display: table-cell">
+            <div class="body bg-orange">
+                <div>
+                    <h3>Valor total do orçamento: </h1>
+                </div>
+                <div>
+                    1.87 bilhões de reais.
+                </div>
+            </div>
+        </div>
+        <div class="card" style="display: table-cell; height: 100%">
+            <div class="body bg-blue-grey">
+                <div>
+                    <h3>Valor gasto até o momento: </h3>
+                </div>
+                <div>
+                    {{ value }} centavos de dólar.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row-clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+    {% include 'total_vs_actual_indicator.html' %}
+</div>
+
+{% endblock %}

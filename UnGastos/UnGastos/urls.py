@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('expenses_month/', views.expanse, name='expanse'),
-    path('resource_source/', views.resource_source, name='resource_source')
+    path('resource_source/', views.resource_source, name='resource_source'),
+    path('indicators/', views.indicators, name='indicators')
 ]
