@@ -4,7 +4,7 @@ import plotly
 
 class TotalVsActual():
 
-    total = 1087000000
+    total = 1870000000
     df = None
 
     def __read_csv__(self):
@@ -17,7 +17,7 @@ class TotalVsActual():
         self.__read_csv__()
         actual = self.df['Pago'].sum()
 
-        labels = ['Gasto', 'Restante']
+        labels = ['Analisado', 'Não Analisado']
 
         layout = {
             'title': 'Valor gasto versus Valor do orçamento restante'
@@ -37,9 +37,3 @@ class TotalVsActual():
             {'data': [data], 'layout': layout},
             filename='UnGastos/main/templates/total_vs_actual_indicator.html',
             config=config)
-
-
-
-
-
-

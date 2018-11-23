@@ -31,6 +31,6 @@ def indicators(request):
     ta = TotalVsActual()
     ta.generate_graphic()
 
-    value = "10"
+    value = "1.36"
 
     return render(request, 'indicators.html', {'value': value})
