@@ -3,6 +3,7 @@ from .graphs.detailed_nature import DetailedNature
 from .graphs.expenses_per_month import ExpensesMonth
 from .graphs.resource_source import ResourceSource
 from .graphs.total_vs_actual_indicator import TotalVsActual
+from .graphs.creditors import CreditorsInfo
 
 
 def home(request):
@@ -27,10 +28,16 @@ def resource_source(request):
 
 
 def indicators(request):
-    # TODO Get value spent till now, convert it to string
     ta = TotalVsActual()
     ta.generate_graphic()
 
     value = "1.36"
 
     return render(request, 'indicators.html', {'value': value})
+
+
+def creditors(request):
+    creditorsInfo = CreditorsInfo()
+    creditorsInfo.generate_data()
+
+    return render(request, 'creditors.html', {'creditors': creditorsInfo.creditors})

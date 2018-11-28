@@ -1,0 +1,27 @@
+{% extends "landing/template.html" %} {% block content %}
+<div>
+    <div class="body table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Credor</th>
+                    <th>Natureza do Gasto</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for creditor in creditors %}
+                    <tr>
+                        <th scope="row">{{ creditor.pos }}</th>
+                        <td>{{ creditor.name }}</td>
+                        <td>{{ creditor.nature }}</td>
+                        <td>{{ creditor.paid }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
