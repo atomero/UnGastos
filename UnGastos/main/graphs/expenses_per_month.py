@@ -34,7 +34,7 @@ class ExpensesMonth():
         layout = go.Layout(
             title='Gastos por Mês',
             margin=go.layout.Margin(
-                l=325,
+                l=275,
             )
         )
 
