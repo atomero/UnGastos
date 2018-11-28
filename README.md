@@ -1,6 +1,6 @@
 ## unGastos
 
-[Logo do Projeto]
+![](https://i.imgur.com/CTzlKcJ.png)
 
 O projeto UnGastos tem como objetivo faciltar a visualização dos gastos da Universidade de Brasília.
 
