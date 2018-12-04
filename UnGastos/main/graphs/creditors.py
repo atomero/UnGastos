@@ -1,5 +1,5 @@
 import pandas as pd
-
+import locale
 
 class CreditorsInfo():
     df = None
@@ -11,6 +11,7 @@ class CreditorsInfo():
         df_greatest = df.head(10)
 
         df_greatest['Pago'] = df_greatest['Pago'].round()
+        df_greatest['Pago'] = df_greatest['Pago'].map('R$ {:,.2f}'.format)
 
         self.df = df_greatest
 
